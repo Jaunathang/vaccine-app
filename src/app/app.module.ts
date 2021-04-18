@@ -9,6 +9,7 @@ import { MaladieComponent } from './maladie/maladie.component';
 import { VaccinComponent } from './vaccin/vaccin.component';
 import { PreventionComponent } from './prevention/prevention.component';
 import { TestComponent } from './test/test.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TestComponent } from './test/test.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
