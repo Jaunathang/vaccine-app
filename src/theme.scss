@@ -8,7 +8,7 @@
 // have to load a single css file for Angular Material in your app.
 
 // Fonts
-@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+@import 'https://fonts.googleapis.com/css?family=Material+Icons+Round';
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500');
      
@@ -31,7 +31,7 @@ $fontConfig: (
 // Foreground Elements
 
 // Light Theme Text
-$dark-text: #191919;
+$dark-text: #121212;
 $dark-primary-text: rgba($dark-text, 0.87);
 $dark-accent-text: rgba($dark-primary-text, 0.54);
 $dark-disabled-text: rgba($dark-primary-text, 0.38);
@@ -39,7 +39,7 @@ $dark-dividers: rgba($dark-primary-text, 0.12);
 $dark-focused: rgba($dark-primary-text, 0.12);
 
 $mat-light-theme-foreground: (
-  base:              black,
+  base:              $dark-text,
   divider:           $dark-dividers,
   dividers:          $dark-dividers,
   disabled:          $dark-disabled-text,
@@ -92,9 +92,9 @@ $light-bg-darker-10:  darken($light-background, 10%);
 $light-bg-darker-20:  darken($light-background, 20%);
 $light-bg-darker-30:  darken($light-background, 30%);
 $light-bg-lighter-5:  lighten($light-background, 5%);
-$dark-bg-tooltip:     lighten(#191919, 20%);
-$dark-bg-alpha-4:     rgba(#191919, 0.04);
-$dark-bg-alpha-12:    rgba(#191919, 0.12);
+$dark-bg-tooltip:     lighten(#121212, 20%);
+$dark-bg-alpha-4:     rgba(#121212, 0.04);
+$dark-bg-alpha-12:    rgba(#121212, 0.12);
 
 $mat-light-theme-background: (
   background:               $light-background,
@@ -115,7 +115,7 @@ $mat-light-theme-background: (
 );
 
 // Dark bg
-$dark-background:     #191919;
+$dark-background:     #121212;
 $dark-bg-lighter-5:   lighten($dark-background, 5%);
 $dark-bg-lighter-10:  lighten($dark-background, 10%);
 $dark-bg-lighter-20:  lighten($dark-background, 20%);
@@ -148,41 +148,41 @@ $mat-dark-theme-background: (
 // Theme Config
 
 body {
-  --primary-color: #ffeb3b;
-  --primary-lighter-color: #fff9c4;
-  --primary-darker-color: #ffe226;
-  --text-primary-color: #{$dark-primary-text};
+  --primary-color: #0d518c;
+  --primary-lighter-color: #b6cbdd;
+  --primary-darker-color: #07376f;
+  --text-primary-color: #{$light-primary-text};
   --text-primary-lighter-color: #{$dark-primary-text};
-  --text-primary-darker-color: #{$dark-primary-text};
+  --text-primary-darker-color: #{$light-primary-text};
 }
 
 $mat-primary: (
-  main: #ffeb3b,
-  lighter: #fff9c4,
-  darker: #ffe226,
-  200: #ffeb3b, // For slide toggle,
+  main: #0d518c,
+  lighter: #b6cbdd,
+  darker: #07376f,
+  200: #0d518c, // For slide toggle,
   contrast : (
-    main: $dark-primary-text,
+    main: $light-primary-text,
     lighter: $dark-primary-text,
-    darker: $dark-primary-text,
+    darker: $light-primary-text,
   )
 );
 $theme-primary: mat-palette($mat-primary, main, lighter, darker);
 
 body {
-  --accent-color: #ffc107;
-  --accent-lighter-color: #ffecb5;
-  --accent-darker-color: #ffab04;
+  --accent-color: #f5b62f;
+  --accent-lighter-color: #fce9c1;
+  --accent-darker-color: #f09e1d;
   --text-accent-color: #{$dark-primary-text};
   --text-accent-lighter-color: #{$dark-primary-text};
   --text-accent-darker-color: #{$dark-primary-text};
 }
 
 $mat-accent: (
-  main: #ffc107,
-  lighter: #ffecb5,
-  darker: #ffab04,
-  200: #ffc107, // For slide toggle,
+  main: #f5b62f,
+  lighter: #fce9c1,
+  darker: #f09e1d,
+  200: #f5b62f, // For slide toggle,
   contrast : (
     main: $dark-primary-text,
     lighter: $dark-primary-text,
@@ -192,19 +192,19 @@ $mat-accent: (
 $theme-accent: mat-palette($mat-accent, main, lighter, darker);
 
 body {
-  --warn-color: #d81e00;
-  --warn-lighter-color: #f3bcb3;
-  --warn-darker-color: #c81200;
+  --warn-color: #c2311c;
+  --warn-lighter-color: #edc1bb;
+  --warn-darker-color: #ac1f11;
   --text-warn-color: #{$light-primary-text};
   --text-warn-lighter-color: #{$dark-primary-text};
   --text-warn-darker-color: #{$light-primary-text};
 }
 
 $mat-warn: (
-  main: #d81e00,
-  lighter: #f3bcb3,
-  darker: #c81200,
-  200: #d81e00, // For slide toggle,
+  main: #c2311c,
+  lighter: #edc1bb,
+  darker: #ac1f11,
+  200: #c2311c, // For slide toggle,
   contrast : (
     main: $light-primary-text,
     lighter: $dark-primary-text,
@@ -240,7 +240,7 @@ $altTheme: mat-dark-theme($theme-primary, $theme-accent, $theme-warn);
 
 .material-icons {
   font-size: 24px;
-  font-family: 'Material Icons', 'Material Icons';  
+  font-family: 'Material Icons Round', 'Material Icons';  
   .mat-badge-content {
     font-family: 'Ubuntu';
   }
