@@ -1,4 +1,4 @@
-@import "./theme.scss";
+@import "theme";
 
 //Extraction des couleurs du thème pour réutilisation dans le CSS de l'app
 $foreground-palette: map-get($theme, foreground);
@@ -6,8 +6,3 @@ $background-palette: map-get($theme, background);
 $primary-palette: map-get($theme, primary);
 $accent-palette: map-get($theme, accent);
 $warn-palette: map-get($theme, warn);
-
-body {
-    margin: 0;
-    padding: 0;
-}
