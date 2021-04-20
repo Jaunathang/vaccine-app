@@ -8,9 +8,10 @@
 // have to load a single css file for Angular Material in your app.
 
 // Fonts
-@import 'https://fonts.googleapis.com/css?family=Material+Icons+Round';
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
      
 $fontConfig: (
   display-4: mat-typography-level(112px, 112px, 300, 'Poppins', -0.0134em),
@@ -25,7 +26,7 @@ $fontConfig: (
   body-1: mat-typography-level(14px, 20px, 400, 'Ubuntu', 0.0179em),
   button: mat-typography-level(14px, 14px, 500, 'Ubuntu', 0.0893em),
   caption: mat-typography-level(12px, 20px, 400, 'Ubuntu', 0.0333em),
-  input: mat-typography-level(inherit, 1.125, 400, 'Ubuntu', 1.5px)
+  input: mat-typography-level(inherit, 1.125, 400, 'Roboto', 1.5px)
 );
 
 // Foreground Elements
@@ -148,19 +149,19 @@ $mat-dark-theme-background: (
 // Theme Config
 
 body {
-  --primary-color: #0d518c;
-  --primary-lighter-color: #b6cbdd;
-  --primary-darker-color: #07376f;
+  --primary-color: #0d4d91;
+  --primary-lighter-color: #b6cade;
+  --primary-darker-color: #073474;
   --text-primary-color: #{$light-primary-text};
   --text-primary-lighter-color: #{$dark-primary-text};
   --text-primary-darker-color: #{$light-primary-text};
 }
 
 $mat-primary: (
-  main: #0d518c,
-  lighter: #b6cbdd,
-  darker: #07376f,
-  200: #0d518c, // For slide toggle,
+  main: #0d4d91,
+  lighter: #b6cade,
+  darker: #073474,
+  200: #0d4d91, // For slide toggle,
   contrast : (
     main: $light-primary-text,
     lighter: $dark-primary-text,
@@ -170,19 +171,19 @@ $mat-primary: (
 $theme-primary: mat-palette($mat-primary, main, lighter, darker);
 
 body {
-  --accent-color: #f5b62f;
-  --accent-lighter-color: #fce9c1;
-  --accent-darker-color: #f09e1d;
+  --accent-color: #ffc52f;
+  --accent-lighter-color: #ffeec1;
+  --accent-darker-color: #ffb01d;
   --text-accent-color: #{$dark-primary-text};
   --text-accent-lighter-color: #{$dark-primary-text};
   --text-accent-darker-color: #{$dark-primary-text};
 }
 
 $mat-accent: (
-  main: #f5b62f,
-  lighter: #fce9c1,
-  darker: #f09e1d,
-  200: #f5b62f, // For slide toggle,
+  main: #ffc52f,
+  lighter: #ffeec1,
+  darker: #ffb01d,
+  200: #ffc52f, // For slide toggle,
   contrast : (
     main: $dark-primary-text,
     lighter: $dark-primary-text,
@@ -192,19 +193,19 @@ $mat-accent: (
 $theme-accent: mat-palette($mat-accent, main, lighter, darker);
 
 body {
-  --warn-color: #c2311c;
-  --warn-lighter-color: #edc1bb;
-  --warn-darker-color: #ac1f11;
+  --warn-color: #d40f08;
+  --warn-lighter-color: #f2b7b5;
+  --warn-darker-color: #c30804;
   --text-warn-color: #{$light-primary-text};
   --text-warn-lighter-color: #{$dark-primary-text};
   --text-warn-darker-color: #{$light-primary-text};
 }
 
 $mat-warn: (
-  main: #c2311c,
-  lighter: #edc1bb,
-  darker: #ac1f11,
-  200: #c2311c, // For slide toggle,
+  main: #d40f08,
+  lighter: #f2b7b5,
+  darker: #c30804,
+  200: #d40f08, // For slide toggle,
   contrast : (
     main: $light-primary-text,
     lighter: $dark-primary-text,
@@ -240,7 +241,7 @@ $altTheme: mat-dark-theme($theme-primary, $theme-accent, $theme-warn);
 
 .material-icons {
   font-size: 24px;
-  font-family: 'Material Icons Round', 'Material Icons';  
+  font-family: 'Material Icons', 'Material Icons';  
   .mat-badge-content {
     font-family: 'Ubuntu';
   }

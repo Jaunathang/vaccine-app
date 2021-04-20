@@ -6,3 +6,18 @@ $background-palette: map-get($theme, background);
 $primary-palette: map-get($theme, primary);
 $accent-palette: map-get($theme, accent);
 $warn-palette: map-get($theme, warn);
+
+$primary-main: mat-color($primary-palette, main);
+$primary-lighter: mat-color($primary-palette, lighter);
+$primary-darker: mat-color($primary-palette, darker);
+$accent-main: mat-color($accent-palette, main);
+$accent-lighter: mat-color($accent-palette, lighter);
+$accent-darker: mat-color($accent-palette, darker);
+
+$light-text: mat-color($primary-palette, main-contrast);
+$light-text-darker: darken($light-text, 5%);
+$dark-text: mat-color($accent-palette, main-contrast);
+$dark-text-lighter: lighten($dark-text, 5%);
+
+$divider: mat-color($foreground-palette, divider);
+
