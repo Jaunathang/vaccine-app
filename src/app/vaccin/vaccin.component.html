@@ -1,1 +1,98 @@
-<p>vaccin works!</p>
+<div class="container-md">
+    <div class="carousel-placeholder"></div>
+
+    <h2><mark class="titre-surligne">Vaccination</mark></h2>
+    <div class="fond-blanc">
+        <p> Aidez votre prochain: faites-vous vacciner! La prise de rendez-vous pour la vaccination a débuté partout
+            en
+            Belgique et elle est obligatoire pour se faire vacciner. Le <b>formulaire</b> suivant est la
+            première étape à
+            l'obtention du rendez-vous. <u>Nous vous contacterons</u> par la suite afin de s'entendre sur le moment
+            le
+            plus convenable. C'est pourquoi il est impératif de bien
+            remplir
+            chaque section.
+
+            Si vous rencontrez des difficultés lors du processus, demandez de l’aide à vos proches ou
+            appelez un agent du service belge au <a href="#">+32 2 268 43 19</a> qui vous
+            guidera étape par étape dans la prise de rendez-vous.
+
+            Le vaccin contre la COVID‑19 est gratuit pour tous résidents belges qui désirent le recevoir. La
+            vaccination
+            est
+            fortement recommandée par le gouvernement belge. L'immunité collective, c'est un vaccin à la fois!</p>
+
+        <p>*Inspiré par le <a
+                href="https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/deroulement-vaccination-contre-la-covid-19/"
+                target="blank">texte retrouvé sur le site du gouvernement du Québec</a></p>
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <form action="/vaccine" method="POST" id="formulaire-vaccin">
+                    <h3>Prise de rendez-vous</h3>
+                    <div class="form-group">
+                        <label for="nom">Nom</label>
+                        <input type="text" class="form-control" name="nom" id="nom" pattern="^[A-Za-z]{3,25}$"
+                            placeholder="Tremblay" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" class="form-control" name="prenom" id="prenom" pattern="^[A-Za-z]{3,25}$"
+                            placeholder="Jean" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ramq">Numéro de carte de la Régie de l’Assurance
+                            Maladie du Québec (RAMQ)</label>
+                        <input type="text" class="form-control" name="ramq" id="ramq" pattern="^[A-Z]{4}\d{8}$"
+                            placeholder="ABCD12345678" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Numéro de téléphone</label>
+                        <input type="tel" class="form-control" name="tel" id="tel" pattern="^(0[^0]|[^0]\d)\d{8}$"
+                            placeholder="1234567890" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="courriel">Courriel</label>
+                        <input type="email" class="form-control" name="courriel" id="courriel"
+                            placeholder="courriel@domaine.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="photo">Téléverser une photo</label>
+                        <input type="file" class="form-control" name="photo" id="photo">
+                    </div>
+                    <div class="form-group">
+                        <fieldset>
+                            <legend>Êtes-vous un.e travailleur.euse essentiel.le?</legend>
+                            &emsp;
+                            <label for="essentielOui">Oui</label>
+                            <input type="radio" id="essentielOui" name="essentiel" value="oui" required>
+                            &emsp;
+                            <label for="essentielNon">Non</label>
+                            <input type="radio" id="essentielNon" name="essentiel" value="non" required>
+                        </fieldset>
+                    </div>
+                    <div class="form-group">
+                        <fieldset>
+                            <legend>Par quel moyen pouvons-nous vous contacter?</legend>
+                            &emsp;
+                            <input type="checkbox" id="contactTel" name="contactTel" value="tel">
+                            <label for="contactTel"> Téléphone </label>
+                            &emsp;
+                            <input type="checkbox" id="contactCourriel" name="contactCourriel" value="courriel">
+                            <label for="contactCourriel"> Courriel </label><br>
+                            <span class="petit-texte text-danger">*Cocher au moins une des deux options</span>
+                        </fieldset>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="text-align:right">
+                            <!-- text-right de bootstrap ne fonctionne pas pour des raisons obscures -->
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</div>

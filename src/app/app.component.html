@@ -1,6 +1,6 @@
 <nav>
     <mat-toolbar role="navigation" color="primary">
-        <div>Hôpital Doux-Jésus</div>
+        <div id="nav-logo-wrapper"><img src="assets/images/logo.png" alt="logo de l'hopital doux-jesus"></div>
             <ul fxLayout (mouseenter)="displayFollower($event)" (mouseleave)="hideFollower()">
                 <li (mouseenter)="followMe($event)" (mouseleave)="stopFollowing($event)"><a
                         routerLink="accueil">Accueil</a>
