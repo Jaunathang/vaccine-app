@@ -1,0 +1,92 @@
+.carousel-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+    .diapo {
+        display: none;
+    }
+    
+    .precedent, .suivant {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: #FFF9DC;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        text-decoration: none;
+    }
+    
+    .suivant {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .precedent:hover, .suivant:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        font-size: 1.15rem;
+        color: #FFF9DC;
+    }
+    
+    .progression {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    
+    .points-progression {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .point {
+        cursor: pointer;
+        height: 12px;
+        width: 12px;
+        margin: 0 2px;
+        background-color: #FFF9DC;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .active, .point:hover {
+        background-color: #F23005;
+    }
+    
+    .fondu {
+        -webkit-animation-name: fondu;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fondu;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fondu {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fondu {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+}
+
