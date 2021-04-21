@@ -15,6 +15,8 @@ import { MaladieComponent } from './maladie/maladie.component';
 import { VaccinComponent } from './vaccin/vaccin.component';
 import { PreventionComponent } from './prevention/prevention.component';
 import { TestComponent } from './test/test.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { TestComponent } from './test/test.component';
     MaladieComponent,
     VaccinComponent,
     PreventionComponent,
-    TestComponent
+    TestComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
