@@ -1,0 +1,702 @@
+[
+  {
+    "localite": "Bahamas",
+    "enfant": 39785,
+    "adulte": 30958,
+    "aine": 157683,
+    "total": 228426
+  },
+  {
+    "localite": "El Salvador",
+    "enfant": 141302,
+    "adulte": 834983,
+    "aine": 305939,
+    "total": 1282224
+  },
+  {
+    "localite": "Northern Mariana Islands",
+    "enfant": 245278,
+    "adulte": 370872,
+    "aine": 167659,
+    "total": 783809
+  },
+  {
+    "localite": "East Timor",
+    "enfant": 96611,
+    "adulte": 308383,
+    "aine": 104228,
+    "total": 509222
+  },
+  {
+    "localite": "Maldives",
+    "enfant": 152195,
+    "adulte": 672362,
+    "aine": 9696,
+    "total": 834253
+  },
+  {
+    "localite": "Brunei Darussalam",
+    "enfant": 299484,
+    "adulte": 496445,
+    "aine": 191551,
+    "total": 987480
+  },
+  {
+    "localite": "Antigua and Barbuda",
+    "enfant": 278728,
+    "adulte": 725128,
+    "aine": 244165,
+    "total": 1248021
+  },
+  {
+    "localite": "Algeria",
+    "enfant": 153889,
+    "adulte": 6334,
+    "aine": 344794,
+    "total": 505017
+  },
+  {
+    "localite": "Switzerland",
+    "enfant": 163417,
+    "adulte": 866314,
+    "aine": 288561,
+    "total": 1318292
+  },
+  {
+    "localite": "Belgium",
+    "enfant": 159560,
+    "adulte": 145095,
+    "aine": 253079,
+    "total": 557734
+  },
+  {
+    "localite": "Jordan",
+    "enfant": 296429,
+    "adulte": 648598,
+    "aine": 330744,
+    "total": 1275771
+  },
+  {
+    "localite": "Haiti",
+    "enfant": 368235,
+    "adulte": 474544,
+    "aine": 211668,
+    "total": 1054447
+  },
+  {
+    "localite": "Myanmar",
+    "enfant": 388775,
+    "adulte": 191863,
+    "aine": 54826,
+    "total": 635464
+  },
+  {
+    "localite": "Sao Tome and Principe",
+    "enfant": 34418,
+    "adulte": 112792,
+    "aine": 2574,
+    "total": 149784
+  },
+  {
+    "localite": "Tonga",
+    "enfant": 156977,
+    "adulte": 995881,
+    "aine": 189925,
+    "total": 1342783
+  },
+  {
+    "localite": "French Southern Territories",
+    "enfant": 181387,
+    "adulte": 26902,
+    "aine": 381287,
+    "total": 589576
+  },
+  {
+    "localite": "Pakistan",
+    "enfant": 80174,
+    "adulte": 727038,
+    "aine": 388732,
+    "total": 1195944
+  },
+  {
+    "localite": "Kyrgyzstan",
+    "enfant": 359151,
+    "adulte": 985920,
+    "aine": 394135,
+    "total": 1739206
+  },
+  {
+    "localite": "Tokelau",
+    "enfant": 247440,
+    "adulte": 461191,
+    "aine": 352733,
+    "total": 1061364
+  },
+  {
+    "localite": "Mozambique",
+    "enfant": 247868,
+    "adulte": 971758,
+    "aine": 423351,
+    "total": 1642977
+  },
+  {
+    "localite": "Greece",
+    "enfant": 487356,
+    "adulte": 636117,
+    "aine": 57965,
+    "total": 1181438
+  },
+  {
+    "localite": "Wallis and Futuna Islands",
+    "enfant": 439735,
+    "adulte": 183694,
+    "aine": 241553,
+    "total": 864982
+  },
+  {
+    "localite": "Ethiopia",
+    "enfant": 175878,
+    "adulte": 529087,
+    "aine": 108324,
+    "total": 813289
+  },
+  {
+    "localite": "Guyana",
+    "enfant": 408432,
+    "adulte": 133181,
+    "aine": 43281,
+    "total": 584894
+  },
+  {
+    "localite": "Moldova",
+    "enfant": 385108,
+    "adulte": 892716,
+    "aine": 493101,
+    "total": 1770925
+  },
+  {
+    "localite": "New Zealand",
+    "enfant": 174423,
+    "adulte": 17437,
+    "aine": 146798,
+    "total": 338658
+  },
+  {
+    "localite": "Western Sahara",
+    "enfant": 243144,
+    "adulte": 62826,
+    "aine": 298438,
+    "total": 604408
+  },
+  {
+    "localite": "Saint Kitts and Nevis",
+    "enfant": 373988,
+    "adulte": 284482,
+    "aine": 340194,
+    "total": 998664
+  },
+  {
+    "localite": "Russian Federation",
+    "enfant": 145086,
+    "adulte": 228573,
+    "aine": 88016,
+    "total": 461675
+  },
+  {
+    "localite": "Ireland",
+    "enfant": 144315,
+    "adulte": 293958,
+    "aine": 348496,
+    "total": 786769
+  },
+  {
+    "localite": "Kazakhstan",
+    "enfant": 297197,
+    "adulte": 916442,
+    "aine": 100932,
+    "total": 1314571
+  },
+  {
+    "localite": "Tuvalu",
+    "enfant": 245507,
+    "adulte": 916835,
+    "aine": 209887,
+    "total": 1372229
+  },
+  {
+    "localite": "Guinea",
+    "enfant": 170456,
+    "adulte": 46811,
+    "aine": 339413,
+    "total": 556680
+  },
+  {
+    "localite": "Guinea-Bissau",
+    "enfant": 496612,
+    "adulte": 595393,
+    "aine": 379044,
+    "total": 1471049
+  },
+  {
+    "localite": "Vatican City State (Holy See)",
+    "enfant": 350477,
+    "adulte": 905894,
+    "aine": 24954,
+    "total": 1281325
+  },
+  {
+    "localite": "Seychelles",
+    "enfant": 415543,
+    "adulte": 986207,
+    "aine": 335312,
+    "total": 1737062
+  },
+  {
+    "localite": "Micronesia",
+    "enfant": 110937,
+    "adulte": 894737,
+    "aine": 245218,
+    "total": 1250892
+  },
+  {
+    "localite": "Kuwait",
+    "enfant": 232677,
+    "adulte": 754251,
+    "aine": 57283,
+    "total": 1044211
+  },
+  {
+    "localite": "Equatorial Guinea",
+    "enfant": 124807,
+    "adulte": 842244,
+    "aine": 227456,
+    "total": 1194507
+  },
+  {
+    "localite": "Netherlands Antilles",
+    "enfant": 349337,
+    "adulte": 338163,
+    "aine": 438796,
+    "total": 1126296
+  },
+  {
+    "localite": "Cayman Islands",
+    "enfant": 138330,
+    "adulte": 215630,
+    "aine": 46080,
+    "total": 400040
+  },
+  {
+    "localite": "Andorra",
+    "enfant": 294133,
+    "adulte": 778863,
+    "aine": 403768,
+    "total": 1476764
+  },
+  {
+    "localite": "Pitcairn",
+    "enfant": 74378,
+    "adulte": 294606,
+    "aine": 211753,
+    "total": 580737
+  },
+  {
+    "localite": "Bangladesh",
+    "enfant": 232471,
+    "adulte": 733931,
+    "aine": 116447,
+    "total": 1082849
+  },
+  {
+    "localite": "Central African Republic",
+    "enfant": 53475,
+    "adulte": 103900,
+    "aine": 303064,
+    "total": 460439
+  },
+  {
+    "localite": "Iraq",
+    "enfant": 276500,
+    "adulte": 471627,
+    "aine": 300564,
+    "total": 1048691
+  },
+  {
+    "localite": "Gabon",
+    "enfant": 300066,
+    "adulte": 490288,
+    "aine": 346079,
+    "total": 1136433
+  },
+  {
+    "localite": "Korea (North)",
+    "enfant": 226566,
+    "adulte": 628526,
+    "aine": 48308,
+    "total": 903400
+  },
+  {
+    "localite": "Swaziland",
+    "enfant": 476310,
+    "adulte": 516474,
+    "aine": 220673,
+    "total": 1213457
+  },
+  {
+    "localite": "Botswana",
+    "enfant": 78518,
+    "adulte": 811975,
+    "aine": 455369,
+    "total": 1345862
+  },
+  {
+    "localite": "Ecuador",
+    "enfant": 228214,
+    "adulte": 13355,
+    "aine": 363756,
+    "total": 605325
+  },
+  {
+    "localite": "Qatar",
+    "enfant": 250141,
+    "adulte": 581053,
+    "aine": 365325,
+    "total": 1196519
+  },
+  {
+    "localite": "United Kingdom",
+    "enfant": 94942,
+    "adulte": 23358,
+    "aine": 138352,
+    "total": 256652
+  },
+  {
+    "localite": "Lesotho",
+    "enfant": 173709,
+    "adulte": 59285,
+    "aine": 398789,
+    "total": 631783
+  },
+  {
+    "localite": "Afghanistan",
+    "enfant": 168744,
+    "adulte": 268831,
+    "aine": 51418,
+    "total": 488993
+  },
+  {
+    "localite": "Laos",
+    "enfant": 494015,
+    "adulte": 125200,
+    "aine": 165179,
+    "total": 784394
+  },
+  {
+    "localite": "Sweden",
+    "enfant": 96836,
+    "adulte": 70008,
+    "aine": 334255,
+    "total": 501099
+  },
+  {
+    "localite": "Macau",
+    "enfant": 388317,
+    "adulte": 159076,
+    "aine": 368120,
+    "total": 915513
+  },
+  {
+    "localite": "Gambia",
+    "enfant": 267152,
+    "adulte": 847600,
+    "aine": 31250,
+    "total": 1146002
+  },
+  {
+    "localite": "South Africa",
+    "enfant": 40838,
+    "adulte": 705631,
+    "aine": 311486,
+    "total": 1057955
+  },
+  {
+    "localite": "Chad",
+    "enfant": 470503,
+    "adulte": 552543,
+    "aine": 251120,
+    "total": 1274166
+  },
+  {
+    "localite": "Belize",
+    "enfant": 448254,
+    "adulte": 943962,
+    "aine": 131983,
+    "total": 1524199
+  },
+  {
+    "localite": "Finland",
+    "enfant": 379268,
+    "adulte": 506955,
+    "aine": 1408,
+    "total": 887631
+  },
+  {
+    "localite": "Croatia (Hrvatska)",
+    "enfant": 463646,
+    "adulte": 363885,
+    "aine": 418328,
+    "total": 1245859
+  },
+  {
+    "localite": "Poland",
+    "enfant": 145999,
+    "adulte": 354223,
+    "aine": 12614,
+    "total": 512836
+  },
+  {
+    "localite": "Guatemala",
+    "enfant": 153281,
+    "adulte": 221136,
+    "aine": 306027,
+    "total": 680444
+  },
+  {
+    "localite": "Barbados",
+    "enfant": 199677,
+    "adulte": 979831,
+    "aine": 477832,
+    "total": 1657340
+  },
+  {
+    "localite": "Cocos (Keeling Islands)",
+    "enfant": 52741,
+    "adulte": 370006,
+    "aine": 301728,
+    "total": 724475
+  },
+  {
+    "localite": "Brazil",
+    "enfant": 381715,
+    "adulte": 348668,
+    "aine": 275115,
+    "total": 1005498
+  },
+  {
+    "localite": "Bhutan",
+    "enfant": 117324,
+    "adulte": 882018,
+    "aine": 444188,
+    "total": 1443530
+  },
+  {
+    "localite": "Guadeloupe",
+    "enfant": 447827,
+    "adulte": 46620,
+    "aine": 298405,
+    "total": 792852
+  },
+  {
+    "localite": "Burkina Faso",
+    "enfant": 348787,
+    "adulte": 85019,
+    "aine": 406742,
+    "total": 840548
+  },
+  {
+    "localite": "Tunisia",
+    "enfant": 65687,
+    "adulte": 63534,
+    "aine": 6051,
+    "total": 135272
+  },
+  {
+    "localite": "United States",
+    "enfant": 4087,
+    "adulte": 124618,
+    "aine": 414995,
+    "total": 543700
+  },
+  {
+    "localite": "Syria",
+    "enfant": 67958,
+    "adulte": 834895,
+    "aine": 435733,
+    "total": 1338586
+  },
+  {
+    "localite": "Solomon Islands",
+    "enfant": 35946,
+    "adulte": 502442,
+    "aine": 470068,
+    "total": 1008456
+  },
+  {
+    "localite": "Japan",
+    "enfant": 210637,
+    "adulte": 573557,
+    "aine": 385359,
+    "total": 1169553
+  },
+  {
+    "localite": "Angola",
+    "enfant": 121828,
+    "adulte": 44306,
+    "aine": 34245,
+    "total": 200379
+  },
+  {
+    "localite": "Zimbabwe",
+    "enfant": 485821,
+    "adulte": 404223,
+    "aine": 285768,
+    "total": 1175812
+  },
+  {
+    "localite": "Georgia",
+    "enfant": 396706,
+    "adulte": 851812,
+    "aine": 244520,
+    "total": 1493038
+  },
+  {
+    "localite": "Italy",
+    "enfant": 325741,
+    "adulte": 602252,
+    "aine": 365963,
+    "total": 1293956
+  },
+  {
+    "localite": "Uganda",
+    "enfant": 47891,
+    "adulte": 516875,
+    "aine": 387529,
+    "total": 952295
+  },
+  {
+    "localite": "Jamaica",
+    "enfant": 145427,
+    "adulte": 125240,
+    "aine": 82048,
+    "total": 352715
+  },
+  {
+    "localite": "Trinidad and Tobago",
+    "enfant": 499092,
+    "adulte": 938497,
+    "aine": 313880,
+    "total": 1751469
+  },
+  {
+    "localite": "Oman",
+    "enfant": 49746,
+    "adulte": 446205,
+    "aine": 25529,
+    "total": 521480
+  },
+  {
+    "localite": "Indonesia",
+    "enfant": 438366,
+    "adulte": 168319,
+    "aine": 221795,
+    "total": 828480
+  },
+  {
+    "localite": "Kenya",
+    "enfant": 439573,
+    "adulte": 502023,
+    "aine": 292320,
+    "total": 1233916
+  },
+  {
+    "localite": "Latvia",
+    "enfant": 23191,
+    "adulte": 432703,
+    "aine": 192811,
+    "total": 648705
+  },
+  {
+    "localite": "Lithuania",
+    "enfant": 79997,
+    "adulte": 542882,
+    "aine": 284463,
+    "total": 907342
+  },
+  {
+    "localite": "Peru",
+    "enfant": 27715,
+    "adulte": 441313,
+    "aine": 406819,
+    "total": 875847
+  },
+  {
+    "localite": "Mauritius",
+    "enfant": 69752,
+    "adulte": 408126,
+    "aine": 314934,
+    "total": 792812
+  },
+  {
+    "localite": "Senegal",
+    "enfant": 1058,
+    "adulte": 905797,
+    "aine": 252564,
+    "total": 1159419
+  },
+  {
+    "localite": "Saint Lucia",
+    "enfant": 42404,
+    "adulte": 120068,
+    "aine": 413965,
+    "total": 576437
+  },
+  {
+    "localite": "British Indian Ocean Territory",
+    "enfant": 211404,
+    "adulte": 477091,
+    "aine": 72745,
+    "total": 761240
+  },
+  {
+    "localite": "France",
+    "enfant": 391208,
+    "adulte": 260602,
+    "aine": 272413,
+    "total": 924223
+  },
+  {
+    "localite": "Benin",
+    "enfant": 31673,
+    "adulte": 492502,
+    "aine": 178954,
+    "total": 703129
+  },
+  {
+    "localite": "Bolivia",
+    "enfant": 224767,
+    "adulte": 642242,
+    "aine": 372422,
+    "total": 1239431
+  },
+  {
+    "localite": "Saint Vincent and The Grenadines",
+    "enfant": 199116,
+    "adulte": 860938,
+    "aine": 18762,
+    "total": 1078816
+  },
+  {
+    "localite": "Iran",
+    "enfant": 297723,
+    "adulte": 400891,
+    "aine": 216969,
+    "total": 915583
+  },
+  {
+    "localite": "Zambia",
+    "enfant": 454076,
+    "adulte": 622254,
+    "aine": 281614,
+    "total": 1357944
+  }
+]

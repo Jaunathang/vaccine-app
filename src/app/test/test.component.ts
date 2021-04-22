@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ResultatService } from '../resultat.service';
 
 @Component({
   selector: 'app-test',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-  constructor() { }
+  constructor(private resultatService: ResultatService) { }
+
+  columnsToDisplay = ['localite', 'enfant', 'adulte', 'aine', 'total'];
 
   ngOnInit(): void {
+    
+  }
+
+  getAll(): any[] {
+    return this.resultatService.getAll();
+  }
+
+  getTopEnfant(): any[] {
+    return this.resultatService.getTopEnfant();
   }
 
 }
