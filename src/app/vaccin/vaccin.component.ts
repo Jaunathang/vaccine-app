@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-vaccin',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VaccinComponent implements OnInit {
 
+  formulaireVaccin= new FormGroup({
+    prenom: new FormControl(''),
+    nom: new FormControl(''),
+    telephone: new FormControl(''),
+    courriel: new FormControl('')
+  });
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onSubmit() {
+    console.warn(this.formulaireVaccin.value);
   }
 
 }

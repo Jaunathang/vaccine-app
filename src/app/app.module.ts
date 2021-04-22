@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { CustomMaterialModule } from  './custom-material/custom-material.module'
+import { ReactiveFormsModule } from '@angular/forms';
 
 //----- Components -----//
 import { AccueilComponent } from './accueil/accueil.component';
@@ -38,7 +39,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     BrowserAnimationsModule,
     FontAwesomeModule,
     FlexLayoutModule,
-    CustomMaterialModule
+    CustomMaterialModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

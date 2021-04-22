@@ -24,7 +24,9 @@
     <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
     <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
 </table>
+
 <br>
+
 <h3>La ou les localité(s) ayant plus d'enfants infectés</h3>
 <ul>
     <li *ngFor="let item of getTopEnfant()">{{ item.localite }} : {{ item.enfant }} enfants déclarés positifs</li>
