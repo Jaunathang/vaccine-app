@@ -22,13 +22,13 @@
         href="https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/deroulement-vaccination-contre-la-covid-19/"
         target="blank">texte retrouvé sur le site du gouvernement du Québec</a></p> -->
 
-<h3>Prise de rendez-vous</h3>
+<h3 i18n="titre de la section vaccin pour prise de rendez-vous">Prise de rendez-vous</h3>
 
 <p>{{ formulaireVaccin.get('nom').value }}</p>
 
 <form [formGroup]="formulaireVaccin" (ngSubmit)="onSubmit()">
     <mat-form-field class="form-field" hintLabel="Entre 1 et 25 lettres" appearance="fill">
-        <mat-label>Votre nom</mat-label>
+        <mat-label i18n="label pour formulaire">Votre nom</mat-label>
         <input matInput #input maxlength="25" pattern="^[A-Za-z]{1,25}$" formControlName="prenom" required>
         <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
     </mat-form-field>
@@ -50,6 +50,8 @@
     </mat-form-field>
     <button type="submit" [disabled]="!formulaireVaccin.valid">Submit</button>
 </form>
+
+<a i18n="ceci est un lien" i18n-href href="https://www.canada.ca/fr.html">LIEN FRANÇAIS</a>
 
 <br>
 

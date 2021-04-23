@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2079099655997252196" datatype="html">
+        <source>Prise de rendez-vous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">titre de la section vaccin pour prise de rendez-vous</note>
+      </trans-unit>
+      <trans-unit id="8876246472358163640" datatype="html">
+        <source>Votre nom</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">label pour formulaire</note>
+      </trans-unit>
+      <trans-unit id="209145448284895947" datatype="html">
+        <source>https://www.canada.ca/fr.html</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8976702355422015560" datatype="html">
+        <source>LIEN FRANÇAIS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <note priority="1" from="description">ceci est un lien</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
