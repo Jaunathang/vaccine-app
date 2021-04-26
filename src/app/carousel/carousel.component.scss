@@ -1,83 +1,124 @@
+@import "theme_variables";
+
+$hauteur-carousel: 600px;
+$hauteur-bar-points: 75px;
+
 .carousel-container {
     position: relative;
     margin: auto;
+    height: $hauteur-carousel;
 
     .diapo {
         display: none;
     }
-    
-    .precedent, .suivant {
-        cursor: pointer;
+
+    a {
+        .img-wrapper {
+            width: 100%;
+            height: $hauteur-carousel;
+            position: relative;
+            overflow: hidden;
+
+            img {
+                max-width: 100%;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+    }
+
+    #bar-progression-points {
+        background-color: $dark-background;
+        opacity: 0.8;
         position: absolute;
-        top: 50%;
-        width: auto;
-        margin-top: -22px;
-        padding: 16px;
-        color: #FFF9DC;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-        text-decoration: none;
-    }
-    
-    .suivant {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-    
-    .precedent:hover, .suivant:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-        font-size: 1.15rem;
-        color: #FFF9DC;
-    }
-    
-    .points-progression {
-        position: absolute;
-        bottom: 10px;
+        bottom: 0;
+        height: $hauteur-bar-points;
         width: 100%;
         text-align: center;
+        display: table;
+
+        #precedent,
+        #suivant {
+            cursor: pointer;
+            position: absolute;
+            height: $hauteur-bar-points;
+            line-height: $hauteur-bar-points;
+            top: 0;
+            padding: 0 20px;
+            color: $light-text-darker;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: 0.6s ease;
+            user-select: none;
+            text-decoration: none;
+        }
+
+        #suivant {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        #precedent:hover,
+        #suivant:hover {
+            font-size: 1.1rem;
+            color: $light-text;
+        }
+
+        & > div {
+            margin: auto;
+            display: table-cell;
+            vertical-align: middle;
+
+            .point {
+                cursor: pointer;
+                display: inline-block;
+                height: 12px;
+                width: 12px;
+                margin: 0 2px;
+                background-color: $light-primary-text;
+                border-radius: 50%;
+                box-shadow: #000 2px 2px;
+                transition: background-color 0.6s ease;
+            }
+
+            .active,
+            .point:hover {
+                background-color: $accent-darker;
+            }
+
+            .active {
+                transform: scale(1.2);
+                margin: 0 4px;
+            }
+        }
     }
-    
-    .point {
-        cursor: pointer;
-        height: 12px;
-        width: 12px;
-        margin: 0 2px;
-        background-color: #FFF9DC;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-    
-    .active, .point:hover {
-        background-color: #F23005;
-    }
-    
+
     .fondu {
         -webkit-animation-name: fondu;
         -webkit-animation-duration: 1.5s;
         animation-name: fondu;
         animation-duration: 1.5s;
     }
-    
+
     @-webkit-keyframes fondu {
         from {
-            opacity: .4
+            opacity: 0.4;
         }
         to {
-            opacity: 1
+            opacity: 1;
         }
     }
-    
+
     @keyframes fondu {
         from {
-            opacity: .4
+            opacity: 0.4;
         }
         to {
-            opacity: 1
+            opacity: 1;
         }
     }
 }
-

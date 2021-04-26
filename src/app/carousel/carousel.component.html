@@ -1,42 +1,27 @@
 <div class="carousel-container">
-    <div class="diapo fondu">
-        <a routerLink="/maladie">
-            <img src="/assets/images/maladie.jpg" style="width:100%" i18n-alt alt="image d'un virus modelisée en 3D">
-        </a>
+    <div *ngFor="let element of listeElementsCarousel" class="diapo fondu">
+        <ng-container *ngIf="element.type == 'page'">
+            <a routerLink="{{ element.lien }}">
+                <div class="img-wrapper">
+                    <img src="{{ element.source }}" style="width:100%" i18n-alt alt="{{ element.alt }}">
+                </div>
+            </a>
+        </ng-container>
+        <ng-container *ngIf="element.type == 'lien'">
+            <a i18n-href href="{{ element.lien }}">
+                <div class="img-wrapper">
+                    <img src="{{ element.source }}" style="width:100%" i18n-alt alt="{{ element.alt }}">
+                </div>
+            </a>
+        </ng-container>
     </div>
 
-    <div class="diapo fondu">
-        <a routerLink="/vaccin">
-            <img src="/assets/images/vaccin.jpg" style="width:100%" i18n-alt alt="seringue rempli d'une substance translucide">
-        </a>
-    </div>
-
-    <div class="diapo fondu">
-        <a routerLink="/prevention">
-            <img src="/assets/images/prevention.jpg" style="width:100%" i18n-alt alt="deux personnes se faisant un poing à poing">
-        </a>
-    </div>
-
-    <div class="diapo fondu">
-        <a routerLink="/test">
-            <img src="/assets/images/test.jpg" style="width:100%" i18n-alt alt="une boite remplie d'éprouvettes">
-        </a>
-    </div>
-
-    <div class="diapo fondu">
-        <a href="https://www.who.int/fr" target="_blank">
-            <img src="/assets/images/oms.jpg" style="width:100%" i18n-alt alt="une femme portant un masque">
-        </a>
-    </div>
-
-    <a class="precedent" (click)="incrementDiapo(-1)" i18n="texte sur bouton précédent">&#10094; Précédent</a>
-    <a class="suivant" (click)="incrementDiapo(1)" i18n="texte sur bouton suivant">Suivant &#10095;</a>
-
-    <div class="points-progression">
-        <span class="point" onclick="diapoActuelle(1)"></span>
-        <span class="point" onclick="diapoActuelle(2)"></span>
-        <span class="point" onclick="diapoActuelle(3)"></span>
-        <span class="point" onclick="diapoActuelle(4)"></span>
-        <span class="point" onclick="diapoActuelle(5)"></span>
+    <div id="bar-progression-points">
+        <a id="precedent" (click)="incrementDiapo(-1)" i18n="texte sur bouton précédent">&#10094; Précédent</a>
+        <div>
+            <span *ngFor="let element of listeElementsCarousel; let indexOfElement = index" class="point"
+                (click)="diapoActuelle(indexOfElement + 1)"></span>
+        </div>
+        <a id="suivant" (click)="incrementDiapo(1)" i18n="texte sur bouton suivant">Suivant &#10095;</a>
     </div>
 </div>

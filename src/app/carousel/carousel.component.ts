@@ -10,9 +10,45 @@ export class CarouselComponent implements OnInit {
   constructor() { }
 
   indexDiapo: number;
+  listeElementsCarousel: any[];
 
   ngOnInit(): void {
     this.indexDiapo = 1;
+    this.listeElementsCarousel = [
+      {
+        type: "page",
+        lien: "/maladie",
+        source: "/assets/images/maladie.jpg",
+        alt: "image d'un virus modelisée en 3D"
+      },
+      {
+        type: "page",
+        lien: "/vaccin",
+        source: "/assets/images/vaccin.jpg",
+        alt: "seringue rempli d'une substance translucide"
+      },
+      {
+        type: "page",
+        lien: "/prevention",
+        source: "/assets/images/prevention.jpg",
+        alt: "deux personnes se faisant un poing à poing"
+      },
+      {
+        type: "page",
+        lien: "/test",
+        source: "/assets/images/test.jpg",
+        alt: "une boite remplie d'éprouvettes"
+      },
+      {
+        type: "lien",
+        lien: "https://www.who.int/fr",
+        source: "/assets/images/oms.jpg",
+        alt: "une femme portant un masque"
+      }
+    ];
+  }
+
+  ngAfterViewChecked() {
     this.afficherDiapos(this.indexDiapo);
   }
 
@@ -39,5 +75,4 @@ export class CarouselComponent implements OnInit {
     diapos[this.indexDiapo - 1].style.display = "block";
     points[this.indexDiapo - 1].className += " active";
   }
-
 }
