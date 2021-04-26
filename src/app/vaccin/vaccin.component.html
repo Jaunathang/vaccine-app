@@ -1,59 +1,49 @@
-<h2><mark class="titre-surligne">Vaccination</mark></h2>
+<h2 i18n="titre de la section vaccin">Vaccination</h2>
 
-<p> Aidez votre prochain: faites-vous vacciner! La prise de rendez-vous pour la vaccination a débuté partout
+<p i18n="Texte d'introduction invitant le lecteur à se faire vacciner">
+    Aidez votre prochain: faites-vous vacciner! La prise de rendez-vous pour la vaccination a débuté partout
     au Québec et elle est obligatoire pour se faire vacciner. Le <b>formulaire</b> suivant est la
-    première étape à
-    l'obtention du rendez-vous. <u>Nous vous contacterons</u> par la suite afin de s'entendre sur le moment
-    le
-    plus convenable. C'est pourquoi il est impératif de bien
-    remplir
-    chaque section.
+    première étape à l'obtention du rendez-vous. <u>Nous vous contacterons</u> par la suite afin de s'entendre sur le
+    moment le plus convenable. C'est pourquoi il est impératif de bien remplir chaque section.
+</p>
 
-    Si vous rencontrez des difficultés lors du processus, demandez conseil à un proche ou
-    appelez au <b>1-877-644-4545</b> où un(e) agent(e) du service provincial vous
-    assistera pour la prise de rendez-vous.
+<p i18n="On donne un numéro ressource pour la prise de rendez-vous">
+    Si vous rencontrez des difficultés lors du processus, demandez conseil à un proche ou appelez au
+    <b>1-877-644-4545</b>b> où un(e) agent(e) du service provincial vous assistera pour la prise de rendez-vous.
+</p>
 
-    Le vaccin contre la COVID‑19 est gratuit pour tous résidents belges qui désirent le recevoir. La
-    vaccination
-    est
-    fortement recommandée par le gouvernement belge. L'immunité collective, c'est un vaccin à la fois!</p>
+<p i18n="Il est mention de la gratuité du vaccin et recommendation du vaccin par le gouvernement">
+    Le vaccin contre la COVID‑19 est gratuit pour tous résidents québecois qui désirent le recevoir. La
+    vaccination est fortement recommandée par le ministère de la Santé. L'immunité collective, c'est un vaccin à la
+    fois!
+</p>
 
-<!-- <p>*Inspiré par le <a
-        href="https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/deroulement-vaccination-contre-la-covid-19/"
-        target="blank">texte retrouvé sur le site du gouvernement du Québec</a></p> -->
+<h3 i18n="Titre pour le formulaire de prise de rendez-vous">Vos informations</h3>
 
-<h3 i18n="titre de la section vaccin pour prise de rendez-vous">Prise de rendez-vous</h3>
-
-<p>{{ formulaireVaccin.get('nom').value }}</p>
-
-<form [formGroup]="formulaireVaccin" (ngSubmit)="onSubmit()">
-    <mat-form-field class="form-field" hintLabel="Entre 1 et 25 lettres" appearance="fill">
-        <mat-label i18n="label pour formulaire">Votre nom</mat-label>
+<form [formGroup]="formulaireVaccin" id="formulaire-vaccin" fxLayout="column" (ngSubmit)="onSubmit()">
+    <mat-form-field i18n-hintLabel="conseil pour nom" hintLabel="Entre 1 et 25 lettres" appearance="fill">
+        <mat-label i18n="label nom pour formulaire">Votre nom</mat-label>
         <input matInput #input maxlength="25" pattern="^[A-Za-z]{1,25}$" formControlName="prenom" required>
         <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
     </mat-form-field>
-    <mat-form-field class="form-field" hintLabel="Entre 1 et 25 lettres" appearance="fill">
-        <mat-label>Votre prénom</mat-label>
+    <mat-form-field i18n-hintLabel="conseil pour prenom" hintLabel="Entre 1 et 25 lettres" appearance="fill">
+        <mat-label i18n="label prenom pour formulaire">Votre prénom</mat-label>
         <input matInput #input maxlength="25" pattern="^[A-Za-z]{1,25}$" formControlName="nom" required>
         <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
     </mat-form-field>
-    <mat-form-field class="form-field" hintLabel="Numéro composé de 10 chiffres" appearance="fill">
-        <mat-label>Votre numéro de téléphone</mat-label>
+    <mat-form-field i18n-hintLabel="conseil pour telephone" hintLabel="Numéro composé de 10 chiffres" appearance="fill">
+        <mat-label i18n="label telephone pour formulaire">Votre numéro de téléphone</mat-label>
         <input matInput #input maxlength="10" pattern="^(0[^0]|[^0]\d)\d{8}$" formControlName="telephone" required>
         <mat-hint align="end">{{input.value?.length || 0}}/10</mat-hint>
     </mat-form-field>
-    <mat-form-field class="form-field" hintLabel="Au format moncourriel@domaine.ca" appearance="fill">
-        <mat-label>Votre adresse courriel</mat-label>
+    <mat-form-field i18n-hintLabel="conseil pour courriel" hintLabel="Au format courriel@domaine.xx" appearance="fill">
+        <mat-label i18n="label courriel pour formulaire">Votre adresse courriel</mat-label>
         <input matInput #input type="email" formControlName="courriel" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
             required>
         <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
     </mat-form-field>
-    <button type="submit" [disabled]="!formulaireVaccin.valid">Submit</button>
+    <button mat-raised-button color="primary" i18n="envoie du formulaire" type="submit" [disabled]="!formulaireVaccin.valid">Envoyer</button>
 </form>
-
-<a i18n="ceci est un lien" i18n-href href="https://www.canada.ca/fr.html">LIEN FRANÇAIS</a>
-
-<br>
 
 <!-- <div class="row">
     <div class="col-md-1"></div>

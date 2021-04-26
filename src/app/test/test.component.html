@@ -1,24 +1,24 @@
-<h2>Ceci est un titre sur les résultats de test du territoire</h2>
+<h2 i18n="titre de la section test">Ceci est un titre sur les résultats de test du territoire</h2>
 
 <table mat-table [dataSource]="getAll()">
     <ng-container matColumnDef="localite">
-        <th mat-header-cell *matHeaderCellDef> Localité </th>
+        <th mat-header-cell *matHeaderCellDef i18n="entête de colonne"> Localité </th>
         <td mat-cell *matCellDef="let element"> {{element.localite}} </td>
     </ng-container>
     <ng-container matColumnDef="enfant">
-        <th mat-header-cell *matHeaderCellDef> Enfant </th>
+        <th mat-header-cell *matHeaderCellDef i18n="entête de colonne"> Enfant </th>
         <td mat-cell *matCellDef="let element"> {{element.enfant}} </td>
     </ng-container>
     <ng-container matColumnDef="adulte">
-        <th mat-header-cell *matHeaderCellDef> Adulte </th>
+        <th mat-header-cell *matHeaderCellDef i18n="entête de colonne"> Adulte </th>
         <td mat-cell *matCellDef="let element"> {{element.adulte}} </td>
     </ng-container>
     <ng-container matColumnDef="aine">
-        <th mat-header-cell *matHeaderCellDef> Ainé </th>
+        <th mat-header-cell *matHeaderCellDef i18n="entête de colonne"> Ainé </th>
         <td mat-cell *matCellDef="let element"> {{element.aine}} </td>
     </ng-container>
     <ng-container matColumnDef="total">
-        <th mat-header-cell *matHeaderCellDef> Total </th>
+        <th mat-header-cell *matHeaderCellDef i18n="entête de colonne"> Total </th>
         <td mat-cell *matCellDef="let element"> {{element.total}} </td>
     </ng-container>
     <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
@@ -27,7 +27,7 @@
 
 <br>
 
-<h3>La ou les localité(s) ayant plus d'enfants infectés</h3>
+<h3 i18n="sous-titre localité">La ou les localité(s) ayant le plus d'enfants infectés</h3>
 <ul>
-    <li *ngFor="let item of getTopEnfant()">{{ item.localite }} : {{ item.enfant }} enfants déclarés positifs</li>
+    <li i18n ="nombre enfants positifs à la covid" *ngFor="let item of getTopEnfant()">{{ item.localite }} : {{ item.enfant }} enfants déclarés positifs</li>
 </ul>

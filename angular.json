@@ -17,9 +17,9 @@
       "sourceRoot": "src",
       "prefix": "app",
       "i18n": {
-        "sourceLocale": "fr",
+        "sourceLocale": "fr-CA",
         "locales": {
-          "en": "src/locales/messages.en.xlf"
+          "en-CA": "src/locales/messages.en-ca.xlf"
         }
       },
       "architect": {
@@ -75,8 +75,8 @@
                 }
               ]
             },
-            "en": {
-              "localize": ["en"]
+            "en-CA": {
+              "localize": ["en-CA"]
             }
           }
         },
@@ -89,8 +89,8 @@
             "production": {
               "browserTarget": "vaccine-app:build:production"
             },
-            "en": {
-              "browserTarget": "vaccine-app:build:en"
+            "en-CA": {
+              "browserTarget": "vaccine-app:build:en-CA"
             }
           }
         },

@@ -1,41 +1,36 @@
 <div class="carousel-container">
     <div class="diapo fondu">
-        <div class="progression">1 / 5</div>
         <a routerLink="/maladie">
-            <img src="/assets/images/maladie.jpg" style="width:100%">
+            <img src="/assets/images/maladie.jpg" style="width:100%" i18n-alt alt="image d'un virus modelisée en 3D">
         </a>
     </div>
 
     <div class="diapo fondu">
-        <div class="progression">2 / 5</div>
         <a routerLink="/vaccin">
-            <img src="/assets/images/vaccin.jpg" style="width:100%">
+            <img src="/assets/images/vaccin.jpg" style="width:100%" i18n-alt alt="seringue rempli d'une substance translucide">
         </a>
     </div>
 
     <div class="diapo fondu">
-        <div class="progression">3 / 5</div>
         <a routerLink="/prevention">
-            <img src="/assets/images/prevention.jpg" style="width:100%">
+            <img src="/assets/images/prevention.jpg" style="width:100%" i18n-alt alt="deux personnes se faisant un poing à poing">
         </a>
     </div>
 
     <div class="diapo fondu">
-        <div class="progression">4 / 5</div>
         <a routerLink="/test">
-            <img src="/assets/images/test.jpg" style="width:100%">
+            <img src="/assets/images/test.jpg" style="width:100%" i18n-alt alt="une boite remplie d'éprouvettes">
         </a>
     </div>
 
     <div class="diapo fondu">
-        <div class="progression">5 / 5</div>
         <a href="https://www.who.int/fr" target="_blank">
-            <img src="/assets/images/oms.jpg" style="width:100%">
+            <img src="/assets/images/oms.jpg" style="width:100%" i18n-alt alt="une femme portant un masque">
         </a>
     </div>
 
-    <a class="precedent" (click)="incrementDiapo(-1)">&#10094; Précédent</a>
-    <a class="suivant" (click)="incrementDiapo(1)">Suivant &#10095;</a>
+    <a class="precedent" (click)="incrementDiapo(-1)" i18n="texte sur bouton précédent">&#10094; Précédent</a>
+    <a class="suivant" (click)="incrementDiapo(1)" i18n="texte sur bouton suivant">Suivant &#10095;</a>
 
     <div class="points-progression">
         <span class="point" onclick="diapoActuelle(1)"></span>

@@ -1,4 +1,24 @@
+@import "theme_variables";
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
+
+    a {
+        color: $primary-main;
+        text-decoration: none;
+        
+        &:visited {
+            color: $primary-main
+        }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin: 1rem 0 !important; 
+    }
 }
