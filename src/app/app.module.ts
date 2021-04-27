@@ -20,7 +20,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
