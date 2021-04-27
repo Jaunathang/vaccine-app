@@ -21,12 +21,13 @@ body {
 
     h1, h2, h3, h4, h5, h6 {
         color: $primary-darker;
-        margin: 1rem 0 !important; 
+        margin: 1.5rem 0 !important; 
     }
 
-    p {
+    p, .paragraphe {
         word-spacing: 3px;
         line-height: 1.75rem;
+        margin-bottom: 3rem;
     }
 
     ul, ol {

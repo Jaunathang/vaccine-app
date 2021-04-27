@@ -24,13 +24,12 @@ nav {
             display: inline-block;
             position: relative;
             text-decoration: none;
-            padding: 0 25px;
+            text-align: center;
 
             a {
-                width: 100%;
-                margin: auto;
                 height: $hauteur-menu-horizontal;
                 line-height: $hauteur-menu-horizontal;
+                padding: 0 25px;
                 display: inline-block;
                 color: $light-text;
                 opacity: 0.9;
@@ -132,10 +131,10 @@ nav {
                 text-align: right;
                 list-style-type: none;
 
-                &:not(:last-child){
-                    border-bottom:3px solid $divider;
+                &:not(:last-child) {
+                    border-bottom: 3px solid $divider;
                 }
-                
+
                 a {
                     display: block;
                     width: 100%;
