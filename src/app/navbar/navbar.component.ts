@@ -34,8 +34,14 @@ export class NavbarComponent implements OnInit {
         const FOLLOWER: any = document.getElementById('follower');
         const TARGET: any = e.target;
 
+        // Si le follower avait préalablement disparu, il se repositionne sur le bon li
+        if(FOLLOWER.style.display != "block") {
+            FOLLOWER.style.left = TARGET.offsetLeft + "px";
+            FOLLOWER.style.display = "block";
+        }
+
         this.WidthAnimation = setInterval(animateWidth, 5);
-        this.PosAnimation = setInterval(animatePos, 5);
+        this.PosAnimation = setInterval(animatePos, 4);
 
         function animateWidth() {
             if (Math.floor(FOLLOWER.clientWidth) == Math.floor(TARGET.clientWidth)) {
@@ -76,12 +82,6 @@ export class NavbarComponent implements OnInit {
     stopFollowing(e: any): void {
         clearInterval(this.WidthAnimation);
         clearInterval(this.PosAnimation);
-    }
-
-    displayFollower(e: any): void {
-        const FOLLOWER: any = document.getElementById('follower');
-        FOLLOWER.style.display = "block";
-        FOLLOWER.style.left = e.clientX + "px";
     }
 
     hideFollower(): void {
