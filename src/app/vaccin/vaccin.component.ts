@@ -12,7 +12,8 @@ export class VaccinComponent implements OnInit {
     prenom: new FormControl(''),
     nom: new FormControl(''),
     telephone: new FormControl(''),
-    courriel: new FormControl('')
+    courriel: new FormControl(''),
+    essentiel: new FormControl('')
   });
 
   constructor() { }

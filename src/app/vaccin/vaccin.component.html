@@ -50,7 +50,16 @@
                 pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required>
             <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
         </mat-form-field>
-        <mat-card-actions align="end"> 
+        <div id="container-radio-buttons" fxLayout="row" fxLayout.xs="column" fxLayoutGap.xs="20px">
+            <mat-label for="essentiel" i18n="label travailleur essentiel">Êtes-vous un.e travailleur.euse sessentiel.le? *
+            </mat-label>
+            <mat-radio-group formControlName="essentiel" name="essentiel" aria-label="travailleur essentiel" required>
+                <mat-radio-button value="oui">Oui</mat-radio-button>
+                <mat-radio-button value="non" checked>Non</mat-radio-button>
+            </mat-radio-group>
+        </div>
+
+        <mat-card-actions align="end">
             <button mat-raised-button color="primary" i18n="envoie du formulaire" type="submit"
                 [disabled]="!formulaireVaccin.valid">Envoyer</button>
         </mat-card-actions>
