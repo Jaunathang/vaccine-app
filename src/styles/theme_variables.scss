@@ -7,8 +7,6 @@ $primary-palette: map-get($theme, primary);
 $accent-palette: map-get($theme, accent);
 $warn-palette: map-get($theme, warn);
 
-$background-dark: mat-color($background-palette, status-bar);
-
 $primary-main: mat-color($primary-palette, main);
 $primary-lighter: mat-color($primary-palette, lighter);
 $primary-darker: mat-color($primary-palette, darker);

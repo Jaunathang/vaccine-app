@@ -1,9 +1,12 @@
 @import "theme_variables";
 
 div.container {
+    min-height: 100%;
     margin: auto;
     padding: 200px 8px;
     overflow: hidden;
+    //extra space pour le sticky footer
+    margin-bottom: 50px;
 }
 
 //----- MEDIA QUERIES -----//

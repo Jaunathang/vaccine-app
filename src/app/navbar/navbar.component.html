@@ -1,7 +1,7 @@
 <nav>
     <mat-toolbar role="navigation" color="primary">
         <div id="nav-logo-wrapper"><img src="assets/images/logo.png" alt="logo de l'hopital doux-jesus"></div>
-        <ul fxLayout (mouseenter)="displayFollower($event)" (mouseleave)="hideFollower()">
+        <ul id="menu-horizontal" fxLayout (mouseenter)="displayFollower($event)" (mouseleave)="hideFollower()">
             <li (mouseenter)="followMe($event)" (mouseleave)="stopFollowing($event)"><a routerLink="/accueil"
                     i18n="lien pour la page d'accueil">Accueil</a>
             </li>
@@ -17,9 +17,18 @@
                 <a routerLink="/test" i18n="lien pour la page test">Test</a>
             </li>
         </ul>
-        <button mat-flat-button color="primary" i18n="langue(localité) dans laquelle on veut traduire le site" i18n-href href="/en-CA" id="lang-button">EN</button>
+        <div id="buttons-section-droite">
+            <button mat-flat-button color="primary" i18n="langue(localité) dans laquelle on veut traduire le site"
+                i18n-href href="/en-CA" id="lang-button">EN</button>
+            <button id="button-menu-mobile" (click)="openCloseMenu()" mat-icon-button class="example-icon" aria-label="icône pour afficher/fermer le menu principal">
+                <mat-icon>menu</mat-icon>
+            </button>
+        </div>
     </mat-toolbar>
     <div id="flag-bar">
         <div id="follower"></div>
     </div>
+
+    <!-- Menu pour mobile -->
+    <ul id="menu-mobile"></ul>
 </nav>

@@ -1,9 +1,33 @@
 @import "theme_variables";
 
+$hauteur-footer: 50px;
+$hauteur-footer-petit-ecran: 70px;
+
 footer {
+    background-color: $accent-main;
+    color: $dark-text;
+    width: 100%;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: $hauteur-footer;
 
     p {
+        height: $hauteur-footer;
+        line-height: $hauteur-footer;
         margin: 0;
+    }
+}
+
+//----- MEDIA QUERIES -----//
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    footer {
+        height: $hauteur-footer-petit-ecran;
+        p {
+            height: $hauteur-footer-petit-ecran;
+            line-height: 35px;
+            font-size: 0.8rem;
+        }
     }
 }

@@ -492,7 +492,7 @@
       <trans-unit id="8223851147369796768" datatype="html">
         <source> Si vous rencontrez des difficultés lors du processus, demandez conseil à un proche ou appelez au <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>1-877-644-4545<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> où un(e) agent(e) du service provincial vous assistera pour la prise de rendez-vous.
         </source>
-        <target> If you have any difficulties during the process, ask a loved one for advice or call <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>1-877-644-4545<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>b&gt; where a provincial service agent will assist you in making an appointment.
+        <target> If you have any difficulties during the process, ask a loved one for advice or call <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>1-877-644-4545<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> where a provincial service agent will assist you in making an appointment.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
@@ -503,7 +503,7 @@
       <trans-unit id="7445714738973401098" datatype="html">
         <source> Le vaccin contre la COVID‑19 est gratuit pour tous résidents québecois qui désirent le recevoir. La vaccination est fortement recommandée par le ministère de la Santé. L&apos;immunité collective, c&apos;est un vaccin à la fois!
         </source>
-        <target> The COVID ‑ 19 vaccine is free for all Quebec residents who wish to receive it. Vaccination is strongly recommended by the Ministry of Health. Collective immunity is one vaccine at a time!
+        <target> The COVID ‑ 19 vaccine is free for all Quebec residents who wish to receive it. Vaccination is strongly recommended by the Ministry of Health. Collective immunity is done one vaccine at a time!
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>

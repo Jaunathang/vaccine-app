@@ -1,5 +1,28 @@
-#formulaire-vaccin {
-    > mat-form-field {
-        width: 90%;
+@import "theme_variables";
+
+#card-formulaire {
+    padding: 32px 16px 32px 32px;
+
+    mat-card-title {
+        color: $primary-main;
+    }
+
+    form {
+        margin-top: 30px;
+
+        mat-form-field {
+            width: 100%;
+            margin-bottom: 20px;
+            mat-label {
+                color: $dark-primary-text;
+            }
+            input {
+                font-size: medium;
+            }
+        }
+
+        mat-card-actions {
+            margin-right: 20px;
+        }
     }
 }

@@ -18,96 +18,43 @@
     fois!
 </p>
 
-<h3 i18n="Titre pour le formulaire de prise de rendez-vous">Vos informations</h3>
+<div class="bande-jaune-top"></div>
 
-<form [formGroup]="formulaireVaccin" id="formulaire-vaccin" fxLayout="column" (ngSubmit)="onSubmit()">
-    <mat-form-field i18n-hintLabel="conseil pour nom" hintLabel="Entre 1 et 25 lettres" appearance="fill">
-        <mat-label i18n="label nom pour formulaire">Votre nom</mat-label>
-        <input matInput #input maxlength="25" pattern="^[A-Za-z]{1,25}$" formControlName="prenom" required>
-        <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
-    </mat-form-field>
-    <mat-form-field i18n-hintLabel="conseil pour prenom" hintLabel="Entre 1 et 25 lettres" appearance="fill">
-        <mat-label i18n="label prenom pour formulaire">Votre prénom</mat-label>
-        <input matInput #input maxlength="25" pattern="^[A-Za-z]{1,25}$" formControlName="nom" required>
-        <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
-    </mat-form-field>
-    <mat-form-field i18n-hintLabel="conseil pour telephone" hintLabel="Numéro composé de 10 chiffres" appearance="fill">
-        <mat-label i18n="label telephone pour formulaire">Votre numéro de téléphone</mat-label>
-        <input matInput #input maxlength="10" pattern="^(0[^0]|[^0]\d)\d{8}$" formControlName="telephone" required>
-        <mat-hint align="end">{{input.value?.length || 0}}/10</mat-hint>
-    </mat-form-field>
-    <mat-form-field i18n-hintLabel="conseil pour courriel" hintLabel="Au format courriel@domaine.xx" appearance="fill">
-        <mat-label i18n="label courriel pour formulaire">Votre adresse courriel</mat-label>
-        <input matInput #input type="email" formControlName="courriel" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
-            required>
-        <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
-    </mat-form-field>
-    <button mat-raised-button color="primary" i18n="envoie du formulaire" type="submit" [disabled]="!formulaireVaccin.valid">Envoyer</button>
-</form>
+<mat-card id="card-formulaire">
+    <mat-card-title i18n="Titre pour le formulaire de prise de rendez-vous">Formulaire préalable à la prise de
+        rendez-vous</mat-card-title>
+    <mat-card-subtitle i18n="Sous-titre explicatif pour le formulaire de prise de rendez-vous">Nous avons besoin des
+        informations suivantes avant vous contacter</mat-card-subtitle>
 
-<!-- <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        <form action="/vaccine" method="POST" id="formulaire-vaccin">
-            <div class="form-group">
-                <label for="nom">Nom</label>
-                <input type="text" class="form-control" name="nom" id="nom" pattern="^[A-Za-z]{3,25}$"
-                    placeholder="Tremblay" required>
-            </div>
-            <div class="form-group">
-                <label for="prenom">Prénom</label>
-                <input type="text" class="form-control" name="prenom" id="prenom" pattern="^[A-Za-z]{3,25}$"
-                    placeholder="Jean" required>
-            </div>
-            <div class="form-group">
-                        <label for="ramq">Numéro de carte de la Régie de l’Assurance
-                            Maladie du Québec (RAMQ)</label>
-                        <input type="text" class="form-control" name="ramq" id="ramq" pattern="^[A-Z]{4}\d{8}$"
-                            placeholder="ABCD12345678" required>
-                    </div>
-            <div class="form-group">
-                <label for="tel">Numéro de téléphone</label>
-                <input type="tel" class="form-control" name="tel" id="tel" pattern="^(0[^0]|[^0]\d)\d{8}$"
-                    placeholder="1234567890" required>
-            </div>
-            <div class="form-group">
-                <label for="courriel">Courriel</label>
-                <input type="email" class="form-control" name="courriel" id="courriel"
-                    placeholder="courriel@domaine.com" required>
-            </div>
-            <div class="form-group">
-                        <label for="photo">Téléverser une photo</label>
-                        <input type="file" class="form-control" name="photo" id="photo">
-                    </div>
-            <div class="form-group">
-                        <fieldset>
-                            <legend>Êtes-vous un.e travailleur.euse essentiel.le?</legend>
-                            &emsp;
-                            <label for="essentielOui">Oui</label>
-                            <input type="radio" id="essentielOui" name="essentiel" value="oui" required>
-                            &emsp;
-                            <label for="essentielNon">Non</label>
-                            <input type="radio" id="essentielNon" name="essentiel" value="non" required>
-                        </fieldset>
-                    </div>
-            <div class="form-group">
-                        <fieldset>
-                            <legend>Par quel moyen pouvons-nous vous contacter?</legend>
-                            &emsp;
-                            <input type="checkbox" id="contactTel" name="contactTel" value="tel">
-                            <label for="contactTel"> Téléphone </label>
-                            &emsp;
-                            <input type="checkbox" id="contactCourriel" name="contactCourriel" value="courriel">
-                            <label for="contactCourriel"> Courriel </label><br>
-                            <span class="petit-texte text-danger">*Cocher au moins une des deux options</span>
-                        </fieldset>
-                    </div>
-            <div class="row">
-                <div class="col-12" style="text-align:right">
-                    <button type="submit" class="btn btn-success">Envoyer</button>
-                </div>
-            </div>
-        </form>
-    </div>
-    <div class="col-md-1"></div>
-</div> -->
+    <form [formGroup]="formulaireVaccin" id="formulaire-vaccin" fxLayout="column" (ngSubmit)="onSubmit()">
+        <mat-form-field i18n-hintLabel="conseil pour prenom" hintLabel="Entre 1 et 25 lettres" appearance="fill">
+            <mat-label i18n="label prenom pour formulaire">Votre prénom</mat-label>
+            <input matInput #input maxlength="25" pattern="^[A-Za-z]{1,25}$" formControlName="nom" required>
+            <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
+        </mat-form-field>
+        <mat-form-field i18n-hintLabel="conseil pour nom" hintLabel="Entre 1 et 25 lettres" appearance="fill">
+            <mat-label i18n="label nom pour formulaire">Votre nom</mat-label>
+            <input matInput #input maxlength="25" pattern="^[A-Za-z]{1,25}$" formControlName="prenom" required>
+            <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
+        </mat-form-field>
+        <mat-form-field i18n-hintLabel="conseil pour telephone" hintLabel="Numéro composé de 10 chiffres"
+            appearance="fill">
+            <mat-label i18n="label telephone pour formulaire">Votre numéro de téléphone</mat-label>
+            <input matInput #input maxlength="10" pattern="^(0[^0]|[^0]\d)\d{8}$" formControlName="telephone" required>
+            <mat-hint align="end">{{input.value?.length || 0}}/10</mat-hint>
+        </mat-form-field>
+        <mat-form-field i18n-hintLabel="conseil pour courriel" hintLabel="Au format courriel@domaine.xx"
+            appearance="fill">
+            <mat-label i18n="label courriel pour formulaire">Votre adresse courriel</mat-label>
+            <input matInput #input type="email" formControlName="courriel"
+                pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required>
+            <mat-hint align="end">{{input.value?.length || 0}}/25</mat-hint>
+        </mat-form-field>
+        <mat-card-actions align="end"> 
+            <button mat-raised-button color="primary" i18n="envoie du formulaire" type="submit"
+                [disabled]="!formulaireVaccin.valid">Envoyer</button>
+        </mat-card-actions>
+    </form>
+</mat-card>
+
+<div class="bande-jaune-bot"></div>

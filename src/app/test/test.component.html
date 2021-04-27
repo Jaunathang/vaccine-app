@@ -1,5 +1,7 @@
 <h2 i18n="titre de la section test">Ceci est un titre sur les résultats de test du territoire</h2>
 
+<div class="bande-jaune-top"></div>
+
 <table mat-table [dataSource]="getAll()">
     <ng-container matColumnDef="localite">
         <th mat-header-cell *matHeaderCellDef i18n="entête de colonne"> Localité </th>
@@ -25,7 +27,8 @@
     <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
 </table>
 
-<br>
+<div class="bande-jaune-bot"></div>
+
 
 <h3 i18n="sous-titre localité">La ou les localité(s) ayant le plus d'enfants infectés</h3>
 <ul>

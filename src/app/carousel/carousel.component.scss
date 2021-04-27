@@ -5,7 +5,7 @@ $hauteur-bar-points: 75px;
 
 .carousel-container {
     position: relative;
-    margin: auto;
+    margin: 0 auto 50px auto;
     height: $hauteur-carousel;
 
     .diapo {
@@ -119,6 +119,88 @@ $hauteur-bar-points: 75px;
         }
         to {
             opacity: 1;
+        }
+    }
+}
+
+//----- MEDIA QUERIES -----//
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+    $hauteur-carousel-x-small: 168px;
+    $hauteur-bar-points-x-small: 50px;
+
+    .carousel-container {
+        height: $hauteur-carousel-x-small;
+        
+        a {
+            .img-wrapper {
+                height: $hauteur-carousel-x-small;
+            }
+        }
+
+        #bar-progression-points {
+            height: $hauteur-bar-points-x-small;
+    
+            #precedent,
+            #suivant {
+                height: $hauteur-bar-points-x-small;
+                line-height: $hauteur-bar-points-x-small;
+                transition: none;
+                font-size: 0.95rem;
+            }
+    
+    
+            & > div {
+                .point {
+                    height: 10px;
+                    width: 10px;
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (entre 600px et 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    $hauteur-carousel-600: 300px;
+
+    .carousel-container {
+        height: $hauteur-carousel-600;
+
+        a {
+            .img-wrapper {
+                height: $hauteur-carousel-600;
+            }
+        }
+    }
+}
+
+/* Medium devices (entre 768px et 992px) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    $hauteur-carousel-768: 400px;
+
+    .carousel-container {
+        height: $hauteur-carousel-768;
+
+        a {
+            .img-wrapper {
+                height: $hauteur-carousel-768;
+            }
+        }
+    }
+}
+
+/* Large devices (entre 992px et 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    $hauteur-carousel-992: 500px;
+
+    .carousel-container {
+        height: $hauteur-carousel-992;
+
+        a {
+            .img-wrapper {
+                height: $hauteur-carousel-992;
+            }
         }
     }
 }

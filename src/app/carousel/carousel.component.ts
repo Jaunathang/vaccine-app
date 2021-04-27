@@ -48,7 +48,7 @@ export class CarouselComponent implements OnInit {
     ];
   }
 
-  ngAfterViewChecked() {
+  ngAfterViewInit() {
     this.afficherDiapos(this.indexDiapo);
   }
 
