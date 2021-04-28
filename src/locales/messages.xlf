@@ -2,46 +2,34 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="fr-CA" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="326395999311053662" datatype="html">
-        <source>image d&apos;un virus modelisée en 3D</source>
+      <trans-unit id="8770121077777877508" datatype="html">
+        <source>Bienvenue sur le site web de l&apos;Hôpital Doux-Jésus</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/carousel/carousel.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+          <context context-type="linenumber">3</context>
         </context-group>
+        <note priority="1" from="description">titre de la section accueil</note>
       </trans-unit>
-      <trans-unit id="1121131015066659376" datatype="html">
-        <source>seringue rempli d&apos;une substance translucide</source>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ element.alt }}"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/carousel/carousel.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">6</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="4944382623643010320" datatype="html">
-        <source>deux personnes se faisant un poing à poing</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/carousel/carousel.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">11</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="5941568327909573798" datatype="html">
-        <source>une boite remplie d&apos;éprouvettes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/carousel/carousel.component.html</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4729479004515759624" datatype="html">
-        <source>une femme portant un masque</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/carousel/carousel.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2010261951121549897" datatype="html">
         <source>❮ Précédent</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/carousel/carousel.component.html</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">20</context>
         </context-group>
         <note priority="1" from="description">texte sur bouton précédent</note>
       </trans-unit>
@@ -49,17 +37,59 @@
         <source>Suivant ❯</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/carousel/carousel.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">25</context>
         </context-group>
         <note priority="1" from="description">texte sur bouton suivant</note>
       </trans-unit>
+      <trans-unit id="326395999311053662" datatype="html">
+        <source>image d&apos;un virus modelisée en 3D</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/carousel/carousel.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1121131015066659376" datatype="html">
+        <source>seringue rempli d&apos;une substance translucide</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/carousel/carousel.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4944382623643010320" datatype="html">
+        <source>deux personnes se faisant un poing à poing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/carousel/carousel.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5941568327909573798" datatype="html">
+        <source>une boite remplie d&apos;éprouvettes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/carousel/carousel.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4511671816529318937" datatype="html">
+        <source>https://www.who.int/fr</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/carousel/carousel.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4729479004515759624" datatype="html">
+        <source>une femme portant un masque</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/carousel/carousel.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="7161095718170102964" datatype="html">
-        <source> Ce site a été développé par <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;mailto: gg891088@ens.uqam.ca&quot;&gt;"/>Jonathan Gagnon<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> dans le cadre du cours <x id="START_LINK_1" equiv-text="&lt;a
-                i18n-href href=&quot;http://www.etudier.uqam.ca/cours?sigle=INF3190&quot;&gt;"/>INF3190<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> de l&apos;<x id="START_LINK_2" equiv-text="&lt;a
-                i18n-href href=&quot;http://www.uqam.ca/&quot;&gt;"/>UQAM<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <source> Ce site a été développé par <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;mailto: gg891088@ens.uqam.ca&quot;&gt;"/>Jonathan Gagnon<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> dans le cadre du cours <x id="START_LINK_1" equiv-text="&lt;a i18n-href
+            href=&quot;http://www.etudier.uqam.ca/cours?sigle=INF3190&quot;&gt;"/>INF3190<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> de l&apos;<x id="START_LINK_2" equiv-text="&lt;a i18n-href
+            href=&quot;http://www.uqam.ca/&quot;&gt;"/>UQAM<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">3,5</context>
+          <context context-type="linenumber">2,5</context>
         </context-group>
         <note priority="1" from="description">crédit et mise en contexte du travail dans le pied de page</note>
       </trans-unit>
@@ -90,7 +120,7 @@
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="linenumber">4,7</context>
         </context-group>
         <note priority="1" from="description">description covid paragraphe 1</note>
       </trans-unit>
@@ -99,16 +129,30 @@
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">7,13</context>
+          <context context-type="linenumber">9,15</context>
         </context-group>
         <note priority="1" from="description">description covid paragraphe 2</note>
+      </trans-unit>
+      <trans-unit id="4432913880587358654" datatype="html">
+        <source>https://www.youtube.com/embed/0k7wEwtWAns?cc_load_policy=1&amp;hl=fr</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3880592665887130861" datatype="html">
+        <source>Vidéo explicatif sur le coronavirus</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="3017684636288054778" datatype="html">
         <source> Les chauves-souris et les oiseaux, en tant que vertébrés volants à sang chaud, seraient les hôtes idéaux pour les coronavirus assurant l&apos;évolution et la dissémination du coronavirus5. Les coronavirus sont normalement spécifiques à un taxon animal comme hôte, mammifères ou oiseaux selon leur espèce ; mais ils peuvent parfois changer d&apos;hôte à la suite d&apos;une mutation. Leur transmission interhumaine se produit principalement par contacts étroits via des aérosols respiratoires générées par les éternuements, la toux ou la phonation. Plus de 500 types de coronavirus ont été isolées chez la chauve-souris et il existerait plus de 5 000 types de coronavirus.
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">15,19</context>
+          <context context-type="linenumber">31,37</context>
         </context-group>
         <note priority="1" from="description">description covid paragraphe 3</note>
       </trans-unit>
@@ -117,7 +161,7 @@
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">21,22</context>
+          <context context-type="linenumber">39,41</context>
         </context-group>
         <note priority="1" from="description">description covid paragraphe 4</note>
       </trans-unit>
@@ -126,7 +170,7 @@
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">24,25</context>
+          <context context-type="linenumber">43,45</context>
         </context-group>
         <note priority="1" from="description">description covid paragraphe 5</note>
       </trans-unit>
@@ -135,7 +179,7 @@
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">27,28</context>
+          <context context-type="linenumber">47,48</context>
         </context-group>
         <note priority="1" from="description">description covid paragraphe 6</note>
       </trans-unit>
@@ -143,7 +187,7 @@
         <source><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>le SARS-CoV, agent pathogène du syndrome respiratoire aigu sévère (SRAS) en 2002-2004<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>le MERS-CoV, celui du syndrome respiratoire du Moyen-Orient à partir de 2012<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>le SARS-CoV-2, celui de la maladie à coronavirus 2019 (Covid-19) apparue en Chine en 2019 et responsable d&apos;une sévère pandémie en 2020<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">30,32</context>
+          <context context-type="linenumber">50,53</context>
         </context-group>
         <note priority="1" from="description">liste des souches du covid</note>
       </trans-unit>
@@ -151,37 +195,22 @@
         <source>Source: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://fr.wikipedia.org/wiki/Coronavirus&quot;&gt;"/>Wikipedia<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">56</context>
         </context-group>
         <note priority="1" from="description">source (version en français)</note>
       </trans-unit>
-      <trans-unit id="2226153782808190975" datatype="html">
-        <source>https://www.youtube.com/embed/0k7wEwtWAns</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3880592665887130861" datatype="html">
-        <source>Vidéo explicatif sur le coronavirus</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3476583629594890489" datatype="html">
-        <source>Accueil</source>
+      <trans-unit id="3339085119706970927" datatype="html">
+        <source>logo de l&apos;hopital doux-jesus</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">5</context>
         </context-group>
-        <note priority="1" from="description">lien pour la page d&apos;accueil</note>
       </trans-unit>
       <trans-unit id="7145738037156488865" datatype="html">
         <source>Maladie</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <note priority="1" from="description">lien pour la page maladie</note>
       </trans-unit>
@@ -189,7 +218,7 @@
         <source>Vaccin</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">16</context>
         </context-group>
         <note priority="1" from="description">lien pour la page vaccin</note>
       </trans-unit>
@@ -197,7 +226,7 @@
         <source>Prévention</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">19</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
@@ -209,7 +238,7 @@
         <source>Test</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <note priority="1" from="description">lien pour la page test</note>
       </trans-unit>
@@ -217,14 +246,14 @@
         <source>/en-CA</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4677726785527621059" datatype="html">
         <source>EN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <note priority="1" from="description">langue(localité) dans laquelle on veut traduire le site</note>
       </trans-unit>
@@ -235,20 +264,12 @@
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5126044876867393827" datatype="html">
-        <source>Comment se propage la COVID-19</source>
+      <trans-unit id="7649523260772540106" datatype="html">
+        <source>*Les informations contenues dans cette page sont tirées du <x id="START_LINK" ctype="x-a" equiv-text="&lt;a i18n-href
+    href=&quot;https://www.canada.ca/fr/sante-publique/services/maladies/2019-nouveau-coronavirus/prevention-risques.html&quot;&gt;"/>site du gouvernement canadien<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">sous-titre propagation (h3)</note>
-      </trans-unit>
-      <trans-unit id="8763195760433803311" datatype="html">
-        <source>Source : <x id="START_LINK" ctype="x-a" equiv-text="&lt;a i18n-href
-        href=&quot;https://www.canada.ca/fr/sante-publique/services/maladies/2019-nouveau-coronavirus/prevention-risques.html&quot;&gt;"/>Site du gouvernement canadien<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
-          <context context-type="linenumber">7,8</context>
+          <context context-type="linenumber">5,6</context>
         </context-group>
         <note priority="1" from="description">source info prévention</note>
       </trans-unit>
@@ -256,8 +277,16 @@
         <source>https://www.canada.ca/fr/sante-publique/services/maladies/2019-nouveau-coronavirus/prevention-risques.html</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5126044876867393827" datatype="html">
+        <source>Comment se propage la COVID-19</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
+        <note priority="1" from="description">sous-titre propagation (h2)</note>
       </trans-unit>
       <trans-unit id="2681023960759453777" datatype="html">
         <source> Une personne infectée transmet la COVID-19 par des gouttelettes respiratoires et des aérosols (gouttelettes minuscules) qu&apos;elle projette lorsqu&apos;elle : <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>crie<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>parle<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>tousse<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>chante<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>éternue<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/> Vous pouvez également contracter la COVID-19 lorsque vous touchez un objet sur lequel le virus se trouve et que vous vous touchez ensuite la bouche, le nez ou les yeux avant de vous être lavé les mains. Vous pouvez transmettre la COVID-19 avant de présenter des symptômes ou sans jamais en présenter.
@@ -268,20 +297,13 @@
         </context-group>
         <note priority="1" from="description">paragraphe sur la propagation du coronavirus</note>
       </trans-unit>
-      <trans-unit id="969945448792178444" datatype="html">
-        <source>image représentant la distanciation sociale</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
-          <context context-type="linenumber">27</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="6468125391483536739" datatype="html">
         <source>Quarantaine et isolement</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
-        <note priority="1" from="description">sous-titre uarantaine (h3)</note>
+        <note priority="1" from="description">sous-titre quarantaine (h2)</note>
       </trans-unit>
       <trans-unit id="298976615095983359" datatype="html">
         <source> S&apos;il y a lieu, les personnes atteintes de la COVID-19 doivent se mettre en quarantaine ou s&apos;isoler pour éviter de transmettre la maladie et pour en empêcher la propagation. Si vous avez récemment voyagé à l&apos;extérieur du Canada, les conseils concernant votre période obligatoire de quarantaine ou d&apos;isolement peuvent différer.
@@ -305,7 +327,7 @@
           <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
           <context context-type="linenumber">40</context>
         </context-group>
-        <note priority="1" from="description">sous-titre mesures de prévention (h3)</note>
+        <note priority="1" from="description">sous-titre mesures de prévention (h2)</note>
       </trans-unit>
       <trans-unit id="1770642033904308956" datatype="html">
         <source>Vaccination</source>
@@ -317,7 +339,7 @@
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
-        <note priority="1" from="description">sous-section de mesures de prévention (h4)</note>
+        <note priority="1" from="description">sous-section de mesures de prévention (h3)</note>
       </trans-unit>
       <trans-unit id="4921486988976974945" datatype="html">
         <source> La vaccination est l&apos;un des moyens les plus efficaces de protéger notre famille, nos collectivités et de nous protéger nous-mêmes contre la COVID-19. Les vaccins seront offerts gratuitement à toutes les personnes admissibles au Canada au cours de l&apos;année 2021.
@@ -334,37 +356,36 @@
           <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
           <context context-type="linenumber">47</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
-          <context context-type="linenumber">59</context>
-        </context-group>
-        <note priority="1" from="description">sous-section de mesures de prévention (h4)</note>
+        <note priority="1" from="description">sous-section de mesures de prévention (h3)</note>
       </trans-unit>
       <trans-unit id="7172285246772818716" datatype="html">
         <source> Pendant que le Canada continue de déployer des efforts dans tout le pays pour étendre la couverture vaccinale, les mesures de santé publique demeurent la base de notre réponse à la pandémie. La transmission communautaire de la COVID-19 continue dans de nombreuses régions du Canada, et de nouveaux variants préoccupants circulent. C&apos;est la raison pour laquelle il est encore plus important d&apos;utiliser de multiples pratiques préventives personnelles en même temps, quel que soit votre statut vaccinal. Il s&apos;agit d&apos;une approche multidimensionnelle qui aide à se protéger soi-même et à protéger les autres. Songez d&apos;avance aux mesures que vous pouvez prendre pour : <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>rester en santé<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>empêcher la propagation de la COVID-19<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
-          <context context-type="linenumber">49,56</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
-          <context context-type="linenumber">61,68</context>
+          <context context-type="linenumber">50,57</context>
         </context-group>
         <note priority="1" from="description">paragraphe sur les pratiques préventives personnelles</note>
       </trans-unit>
-      <trans-unit id="8717704014759836624" datatype="html">
-        <source>Ceci est un titre sur les résultats de test du territoire</source>
+      <trans-unit id="1105542157903228770" datatype="html">
+        <source>La pandémie à travers le monde</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/test/test.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
         <note priority="1" from="description">titre de la section test</note>
       </trans-unit>
+      <trans-unit id="4382539556073223183" datatype="html">
+        <source>Filtre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6206205780192590183" datatype="html">
         <source> Localité </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/test/test.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">14</context>
         </context-group>
         <note priority="1" from="description">entête de colonne</note>
       </trans-unit>
@@ -372,7 +393,7 @@
         <source> Enfant </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/test/test.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">18</context>
         </context-group>
         <note priority="1" from="description">entête de colonne</note>
       </trans-unit>
@@ -380,7 +401,7 @@
         <source> Adulte </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/test/test.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">22</context>
         </context-group>
         <note priority="1" from="description">entête de colonne</note>
       </trans-unit>
@@ -388,7 +409,7 @@
         <source> Ainé </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/test/test.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <note priority="1" from="description">entête de colonne</note>
       </trans-unit>
@@ -396,28 +417,29 @@
         <source> Total </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/test/test.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <note priority="1" from="description">entête de colonne</note>
       </trans-unit>
-      <trans-unit id="9207924599740584016" datatype="html">
-        <source>La ou les localité(s) ayant plus d&apos;enfants infectés</source>
+      <trans-unit id="8688265676327806853" datatype="html">
+        <source>La ou les localité(s) ayant le plus d&apos;enfants infectés</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/test/test.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">42</context>
         </context-group>
         <note priority="1" from="description">sous-titre localité</note>
       </trans-unit>
       <trans-unit id="8008828186343523579" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ item.localite }}"/> : <x id="INTERPOLATION_1" equiv-text="{{ item.enfant }}"/> enfants déclarés positifs</source>
+        <source><x id="INTERPOLATION" equiv-text="{{ item.localite }}"/> : <x id="INTERPOLATION_1" equiv-text="{{
+        item.enfant }}"/> enfants déclarés positifs</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/test/test.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">44,45</context>
         </context-group>
         <note priority="1" from="description">nombre enfants positifs à la covid</note>
       </trans-unit>
-      <trans-unit id="1122541070600551732" datatype="html">
-        <source> Aidez votre prochain: faites-vous vacciner! La prise de rendez-vous pour la vaccination a débuté partout au Québec et elle est obligatoire pour se faire vacciner. Le <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>formulaire<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> suivant est la première étape à l&apos;obtention du rendez-vous. <x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u&gt;"/>Nous vous contacterons<x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;"/> par la suite afin de s&apos;entendre sur le moment le plus convenable. C&apos;est pourquoi il est impératif de bien remplir chaque section.
+      <trans-unit id="6461476588309503107" datatype="html">
+        <source> Aidez votre prochain: faites-vous vacciner! La prise de rendez-vous pour la vaccination a débuté partout au Québec et elle est obligatoire pour se faire vacciner. Le formulaire suivant est la première étape à l&apos;obtention du rendez-vous. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Nous vous contacterons par la suite<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> afin de s&apos;entendre sur le moment le plus convenable. C&apos;est pourquoi il est impératif de bien remplir chaque section du formulaire.
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
@@ -443,47 +465,55 @@
         </context-group>
         <note priority="1" from="description">Il est mention de la gratuité du vaccin et recommendation du vaccin par le gouvernement</note>
       </trans-unit>
-      <trans-unit id="2079099655997252196" datatype="html">
-        <source>Prise de rendez-vous</source>
+      <trans-unit id="663219967028834295" datatype="html">
+        <source>Formulaire préalable à la prise de rendez-vous</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">24,25</context>
         </context-group>
         <note priority="1" from="description">Titre pour le formulaire de prise de rendez-vous</note>
+      </trans-unit>
+      <trans-unit id="1533258292677275252" datatype="html">
+        <source>Nous avons besoin des informations suivantes avant vous contacter</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+        <note priority="1" from="description">Sous-titre explicatif pour le formulaire de prise de rendez-vous</note>
       </trans-unit>
       <trans-unit id="6914998668781916198" datatype="html">
         <source>Entre 1 et 25 lettres</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">35</context>
         </context-group>
-        <note priority="1" from="description">conseil pour nom</note>
-      </trans-unit>
-      <trans-unit id="8876246472358163640" datatype="html">
-        <source>Votre nom</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-        <note priority="1" from="description">label nom pour formulaire</note>
+        <note priority="1" from="description">conseil pour prenom</note>
       </trans-unit>
       <trans-unit id="7348793724173701867" datatype="html">
         <source>Votre prénom</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">31</context>
         </context-group>
         <note priority="1" from="description">label prenom pour formulaire</note>
+      </trans-unit>
+      <trans-unit id="8876246472358163640" datatype="html">
+        <source>Votre nom</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">label nom pour formulaire</note>
       </trans-unit>
       <trans-unit id="8753583467734572619" datatype="html">
         <source>Numéro composé de 10 chiffres</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">40</context>
         </context-group>
         <note priority="1" from="description">conseil pour telephone</note>
       </trans-unit>
@@ -491,15 +521,15 @@
         <source>Votre numéro de téléphone</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">42</context>
         </context-group>
         <note priority="1" from="description">label telephone pour formulaire</note>
       </trans-unit>
-      <trans-unit id="4196755775646409904" datatype="html">
-        <source>Au format moncourriel@domaine.ca</source>
+      <trans-unit id="158640140287036247" datatype="html">
+        <source>Au format courriel@domaine.xx</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">46</context>
         </context-group>
         <note priority="1" from="description">conseil pour courriel</note>
       </trans-unit>
@@ -507,15 +537,46 @@
         <source>Votre adresse courriel</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <note priority="1" from="description">label courriel pour formulaire</note>
       </trans-unit>
-      <trans-unit id="935187492052582731" datatype="html">
-        <source>Submit</source>
+      <trans-unit id="749033675896089150" datatype="html">
+        <source>Êtes-vous un.e travailleur.euse sessentiel.le? * </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+        <note priority="1" from="description">label travailleur essentiel</note>
+      </trans-unit>
+      <trans-unit id="408970785892033391" datatype="html">
+        <source>travailleur essentiel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7180575964287205441" datatype="html">
+        <source>Oui</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <note priority="1" from="description">option oui travailleur essentiel</note>
+      </trans-unit>
+      <trans-unit id="4709450557795328287" datatype="html">
+        <source>Non</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <note priority="1" from="description">option non travailleur essentiel</note>
+      </trans-unit>
+      <trans-unit id="7243381769177289361" datatype="html">
+        <source>Envoyer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">64</context>
         </context-group>
         <note priority="1" from="description">envoie du formulaire</note>
       </trans-unit>

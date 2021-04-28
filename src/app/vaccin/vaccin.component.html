@@ -1,10 +1,10 @@
-<h2 i18n="titre de la section vaccin">Vaccination</h2>
+<h1 i18n="titre de la section vaccin">Vaccination</h1>
 
 <p i18n="Texte d'introduction invitant le lecteur à se faire vacciner">
     Aidez votre prochain: faites-vous vacciner! La prise de rendez-vous pour la vaccination a débuté partout
-    au Québec et elle est obligatoire pour se faire vacciner. Le <b>formulaire</b> suivant est la
-    première étape à l'obtention du rendez-vous. <u>Nous vous contacterons</u> par la suite afin de s'entendre sur le
-    moment le plus convenable. C'est pourquoi il est impératif de bien remplir chaque section.
+    au Québec et elle est obligatoire pour se faire vacciner. Le formulaire suivant est la
+    première étape à l'obtention du rendez-vous. <b>Nous vous contacterons par la suite</b> afin de s'entendre sur le
+    moment le plus convenable. C'est pourquoi il est impératif de bien remplir chaque section du formulaire.
 </p>
 
 <p i18n="On donne un numéro ressource pour la prise de rendez-vous">
@@ -53,9 +53,9 @@
         <div id="container-radio-buttons" fxLayout="row" fxLayout.xs="column" fxLayoutGap.xs="20px">
             <mat-label for="essentiel" i18n="label travailleur essentiel">Êtes-vous un.e travailleur.euse sessentiel.le? *
             </mat-label>
-            <mat-radio-group formControlName="essentiel" name="essentiel" aria-label="travailleur essentiel" required>
-                <mat-radio-button value="oui">Oui</mat-radio-button>
-                <mat-radio-button value="non" checked>Non</mat-radio-button>
+            <mat-radio-group formControlName="essentiel" name="essentiel" i18n-aria-label aria-label="travailleur essentiel" required>
+                <mat-radio-button value="oui" i18n="option oui travailleur essentiel">Oui</mat-radio-button>
+                <mat-radio-button value="non" i18n="option non travailleur essentiel" checked>Non</mat-radio-button>
             </mat-radio-group>
         </div>
 

@@ -19,31 +19,32 @@ export class CarouselComponent implements OnInit {
         type: "page",
         lien: "/maladie",
         source: "/assets/images/maladie.jpg",
-        alt: "image d'un virus modelisée en 3D"
+        alt: $localize`image d'un virus modelisée en 3D`
       },
       {
         type: "page",
         lien: "/vaccin",
         source: "/assets/images/vaccin.jpg",
-        alt: "seringue rempli d'une substance translucide"
+        alt: $localize`seringue rempli d'une substance translucide`
       },
       {
         type: "page",
         lien: "/prevention",
         source: "/assets/images/prevention.jpg",
-        alt: "deux personnes se faisant un poing à poing"
+        alt: $localize`deux personnes se faisant un poing à poing`
+
       },
       {
         type: "page",
         lien: "/test",
         source: "/assets/images/test.jpg",
-        alt: "une boite remplie d'éprouvettes"
+        alt: $localize`une boite remplie d'éprouvettes`
       },
       {
         type: "lien",
-        lien: "https://www.who.int/fr",
+        lien: $localize`https://www.who.int/fr`,
         source: "/assets/images/oms.jpg",
-        alt: "une femme portant un masque"
+        alt: $localize`une femme portant un masque`
       }
     ];
   }
