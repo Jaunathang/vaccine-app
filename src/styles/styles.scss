@@ -52,11 +52,11 @@ body {
 }
 
 snack-bar-container.mat-snack-bar-container {
-    color: $light-text !important;
-    background-color: $primary-darker!important;
+    color: $primary-main !important;
+    background-color: #fff !important;
     border-color: $divider !important;
   }
   
   div.mat-simple-snackbar-action {
-    color: $light-text !important;
-  }
+    color: $primary-main !important;
+  } 

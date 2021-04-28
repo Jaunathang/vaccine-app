@@ -27,7 +27,7 @@ export class VaccinComponent implements OnInit {
   }
 
   ouvrirSnackBar(prenom: string): void {
-    this.snackBar.open($localize`${prenom}, votre formulaire a bien été envoyé.`, '', {
+    this.snackBar.open($localize`${prenom}, votre formulaire a été envoyé avec succès!`, '', {
       duration: 5000
     });
     this.formGroupVaccin.reset();
