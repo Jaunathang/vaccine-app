@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-vaccin',
@@ -8,7 +9,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 })
 export class VaccinComponent implements OnInit {
 
-  formulaireVaccin= new FormGroup({
+  formGroupVaccin = new FormGroup({
     prenom: new FormControl(''),
     nom: new FormControl(''),
     telephone: new FormControl(''),
@@ -16,13 +17,20 @@ export class VaccinComponent implements OnInit {
     essentiel: new FormControl('')
   });
 
-  constructor() { }
+  constructor(private snackBar: MatSnackBar) {}
 
   ngOnInit(): void {
   }
 
   onSubmit() {
-    console.warn(this.formulaireVaccin.value);
+    console.warn(this.formGroupVaccin.value);
+  }
+
+  ouvrirSnackBar(prenom: string): void {
+    this.snackBar.open($localize`${prenom}, votre formulaire a bien été envoyé.`, '', {
+      duration: 5000
+    });
+    this.formGroupVaccin.reset();
   }
 
 }

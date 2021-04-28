@@ -50,3 +50,13 @@ body {
     margin-bottom:35px;
     background: linear-gradient(-1deg, $light-background 48%, $accent-darker 50%);
 }
+
+snack-bar-container.mat-snack-bar-container {
+    color: $light-text !important;
+    background-color: $primary-darker!important;
+    border-color: $divider !important;
+  }
+  
+  div.mat-simple-snackbar-action {
+    color: $light-text !important;
+  }
